@@ -66,3 +66,24 @@ header .current a {
   color: #e8491d;
   font-weight: bold;
 }
+
+/* SHOWCASE */
+
+#showcase {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../img/showcase.jpg') no-repeat;
+  background-size: cover;
+  color: #fff;
+  min-height: 600px;
+  text-align: center;
+}
+
+#showcase h1 {
+  font-size: 55px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+#showcase p {
+  font-size: 20px;
+}
