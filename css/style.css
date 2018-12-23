@@ -141,3 +141,11 @@ header .current a {
 #boxes .skills-box img {
   width: 90px;
 }
+
+footer {
+  background: #35424a;
+  color: #fff;
+  margin-top: 20px;
+  padding: 3.25em 0 3.25em 0;
+  text-align: center;
+}
