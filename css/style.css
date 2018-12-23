@@ -33,6 +33,14 @@ ul {
   background: #fff;
 }
 
+.dark-background {
+  background: #35424a;
+  color: #fff;
+  margin-top: 20px 0 20px 0;
+  padding: 3.25em 0 3.25em 0;
+  /* text-align: center; */
+}
+
 /* Header */
 
 header {
@@ -143,9 +151,54 @@ header .current a {
 }
 
 footer {
-  background: #35424a;
-  color: #fff;
-  margin-top: 20px;
-  padding: 3.25em 0 3.25em 0;
   text-align: center;
+}
+
+/* About Page */
+
+aside#sidebar {
+  float: right;
+  margin-top: 10px;
+  width: 30%;
+}
+
+article#main-area {
+  float: left;
+  width: 65%;
+}
+
+/* Services Page */
+
+ul#services li {
+  background: #e6e6e6;
+  border: #ccc solid 1px;
+  list-style: none;
+  margin-bottom: 5px;
+  padding: 20px;
+}
+
+aside#sidebar form {
+  margin-left: 25px;
+}
+
+aside#sidebar .quote input,
+aside#sidebar .quote textarea {
+  padding: 5px;
+  width: 80%;
+}
+
+/* Media Queries */
+/* Smaller than 768px */
+@media (max-width: 768px) {
+  header #branding,
+  header nav,
+  header nav li {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  header {
+    padding-bottom: 30px;
+  }
 }
