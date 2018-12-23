@@ -123,3 +123,21 @@ header .current a {
   padding: 4px;
   width: 250px;
 }
+
+/* Skills Section */
+
+#boxes {
+  padding: 3.25em 0 3.25em 0;
+  margin-top: 20px;
+}
+
+#boxes .skills-box {
+  float: left;
+  padding: 10px;
+  text-align: center;
+  width: 30%;
+}
+
+#boxes .skills-box img {
+  width: 90px;
+}
